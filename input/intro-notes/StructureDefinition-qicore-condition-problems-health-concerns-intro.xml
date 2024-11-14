@@ -3,7 +3,7 @@
 <b>Must Have:</b>
 <ul>
 <li>category: category codes</li>
-<li>category: problem-list-item | health-concern</li>
+<li>category(Condition.category:us-core): problem-list-item | health-concern</li>
 <li>code: (QI) Identification of the condition, problem or diagnosis</li>
 <li>subject: (QI) Who has the condition?</li>
 </ul>

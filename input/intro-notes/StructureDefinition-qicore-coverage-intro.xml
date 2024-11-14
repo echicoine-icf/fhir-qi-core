@@ -2,13 +2,13 @@
 <!--Begin Generated Intro Tag (DO NOT REMOVE)-->
 <b>Must Have:</b>
 <ul>
-<li>identifier.type: Member Number identifier type</li>
+<li>identifier.type(Coverage.identifier:memberid.type): Member Number identifier type</li>
 <li>status: active | cancelled | draft | entered-in-error</li>
 <li>beneficiary: (QI) Plan beneficiary</li>
 <li>relationship: Beneficiary relationship to the subscriber</li>
 <li>payor: (QI) Issuer of the policy</li>
-<li>class.value: Group Number</li>
-<li>class.value: Plan Number</li>
+<li>class.value(Coverage.class:group.value): Group Number</li>
+<li>class.value(Coverage.class:plan.value): Plan Number</li>
 </ul>
 
 <b>QI Elements:</b>

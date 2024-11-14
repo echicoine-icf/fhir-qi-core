@@ -4,7 +4,7 @@
 <ul>
 <li>status: (QI) registered | prliminary | final | amended | corrected | entered-in-error | unknown</li>
 <li>category: (QI) Classification of type of observation</li>
-<li>category: (QI) Classification of type of observation</li>
+<li>category(Observation.category:us-core): (QI) Classification of type of observation</li>
 <li>code: (QI) Laboratory Test Name</li>
 <li>subject: (QI) Who and/or what the observation is about</li>
 </ul>

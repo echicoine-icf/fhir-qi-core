@@ -10,7 +10,7 @@
 
 <b>QI Elements:</b>
 <ul>
-<li>category: (QI) Classification of type of observation</li>
+<li>category(Observation.category:us-core): (QI) Classification of type of observation</li>
 <li>effective[x]: (QI) Clinically relevant time/time-period for observation</li>
 <li>value[x]: (QI) Result Value</li>
 <li>dataAbsentReason: (QI) Why the result is missing</li>

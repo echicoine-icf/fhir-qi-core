@@ -4,7 +4,7 @@
 <ul>
 <li>status: registered | partial | preliminary | final +</li>
 <li>category: (QI) Service category</li>
-<li>category: (QI) Service category</li>
+<li>category(DiagnosticReport.category:LaboratorySlice): (QI) Service category</li>
 <li>code: US Core Laboratory Report Order Code</li>
 <li>subject: (QI) The subject of the report - usually, but not always, the patient</li>
 </ul>

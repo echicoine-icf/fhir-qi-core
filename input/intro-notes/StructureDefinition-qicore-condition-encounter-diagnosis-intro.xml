@@ -3,7 +3,7 @@
 <b>Must Have:</b>
 <ul>
 <li>category: category codes</li>
-<li>category: encounter-diagnosis</li>
+<li>category(Condition.category:us-core): encounter-diagnosis</li>
 <li>code: Identification of the condition, problem or diagnosis</li>
 <li>subject: (QI) Who has the condition?</li>
 </ul>

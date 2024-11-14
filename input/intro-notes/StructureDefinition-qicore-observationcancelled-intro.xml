@@ -11,7 +11,7 @@
 <li>effective[x]: (QI) Clinically relevant time/time-period for observation</li>
 <li>issued: (QI) Date/Time this version was made available</li>
 <li>value[x]: (QI) Actual result</li>
-<li>value[x]: (QI) Actual result</li>
+<li>value[x](Observation.value[x]:valueCodeableConcept): (QI) Actual result</li>
 <li>interpretation: (QI) High, low, normal, etc.</li>
 </ul>
 

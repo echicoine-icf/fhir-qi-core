@@ -4,14 +4,14 @@
 <ul>
 <li>status: (QI) registered | prliminary | final | amended | corrected | entered-in-error | unknown</li>
 <li>category: (QI) Classification of type of observation</li>
-<li>category: (QI) Classification of type of observation</li>
+<li>category(Observation.category:survey): (QI) Classification of type of observation</li>
 <li>code: (QI) Type of observation (code / type)</li>
 <li>subject: (QI) Who and/or what the observation is about</li>
 </ul>
 
 <b>QI Elements:</b>
 <ul>
-<li>category: (QI) Classification of type of observation</li>
+<li>category(Observation.category:screening-assessment): (QI) Classification of type of observation</li>
 <li>effective[x]: (QI) Clinically relevant time/time-period for observation</li>
 <li>performer: (QI) Who is responsible for the observation</li>
 <li>value[x]: (QI) Actual result</li>
