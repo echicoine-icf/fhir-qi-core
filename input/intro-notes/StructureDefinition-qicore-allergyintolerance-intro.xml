@@ -1,18 +1,17 @@
 <div xmlns="http://www.w3.org/1999/xhtml" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://hl7.org/fhir ../../input-cache/schemas/R5/fhir-single.xsd">
 <!--Begin Generated Intro Tag (DO NOT REMOVE)-->
-"Must Have", "QI Elements" and "primary code path" are defined in the <a href="index.html#mustsupport-flag">QI-Core Must Support section</a>.<br></br>
+"Must Have", "QI Elements" and "primary code path" are defined in the <a href="index.html#mustsupport-flag">QI-Core Must Support section</a>.<br></br><br></br>
 
 <b>Must Have:</b>
 <ul>
 <li>code: (QI) Code that identifies the allergy or intolerance</li>
 <li>patient: (QI) Who the sensitivity is for</li>
-<li>reaction.manifestation: Clinical symptoms/signs associated with the Event</li>
 </ul>
 
 <b>QI Elements:</b>
 <ul>
 <li>clinicalStatus: (QI) active | inactive | resolved</li>
-<li>verificationStatus: unconfirmed | confirmed | refuted | entered-in-error</li>
+<li>verificationStatus: (QI) unconfirmed | confirmed | refuted | entered-in-error</li>
 <li>type: (QI) allergy | intolerance - Underlying mechanism (if known)</li>
 <li>category: (QI) food | medication | environment | biologic</li>
 <li>criticality: (QI) low | high | unable-to-assess</li>
@@ -20,7 +19,6 @@
 <li>recordedDate: (QI) Date first version of the resource instance was recorded</li>
 <li>lastOccurrence: (QI) Date(/time) of last known occurrence of a reaction</li>
 <li>reaction: (QI) Adverse Reaction Events linked to exposure to substance</li>
-<li>reaction.severity: (QI) mild | moderate | severe (of event as a whole)</li>
 </ul>
 
 <b>Primary code path:</b> code

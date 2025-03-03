@@ -1,6 +1,6 @@
 <div xmlns="http://www.w3.org/1999/xhtml" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://hl7.org/fhir ../../input-cache/schemas/R5/fhir-single.xsd">
 <!--Begin Generated Intro Tag (DO NOT REMOVE)-->
-"Must Have", "QI Elements" and "primary code path" are defined in the <a href="index.html#mustsupport-flag">QI-Core Must Support section</a>.<br></br>
+"Must Have", "QI Elements" and "primary code path" are defined in the <a href="index.html#mustsupport-flag">QI-Core Must Support section</a>.<br></br><br></br>
 
 <b>QI Elements:</b>
 <ul>
@@ -11,7 +11,6 @@
 <li>encounter: (QI) Encounter created as part of</li>
 <li>recordedDate: (QI) When the event was recorded</li>
 <li>resultingCondition: (QI) Effect on the subject due to this event</li>
-<li>suspectEntity.instance: (QI) Refers to the specific entity that caused the adverse event</li>
 </ul>
 
 <b>Primary code path:</b> event

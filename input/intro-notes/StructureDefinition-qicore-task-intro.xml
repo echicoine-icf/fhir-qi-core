@@ -1,6 +1,6 @@
 <div xmlns="http://www.w3.org/1999/xhtml" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://hl7.org/fhir ../../input-cache/schemas/R5/fhir-single.xsd">
 <!--Begin Generated Intro Tag (DO NOT REMOVE)-->
-"Must Have", "QI Elements" and "primary code path" are defined in the <a href="index.html#mustsupport-flag">QI-Core Must Support section</a>.<br></br>
+"Must Have", "QI Elements" and "primary code path" are defined in the <a href="index.html#mustsupport-flag">QI-Core Must Support section</a>.<br></br><br></br>
 
 <b>QI Elements:</b>
 <ul>
@@ -9,6 +9,8 @@
 <li>intent: (QI) unknown | proposal | plan | order | original-order | reflex-order | filler-order | instance</li>
 <li>priority: (QI) routine | urgent | asap | stat</li>
 <li>code: (QI) Task Type</li>
+<li>focus: (QI) What task is acting on</li>
+<li>for: (QI) Beneficiary of the Task</li>
 <li>executionPeriod: (QI) Start and end time of execution</li>
 </ul>
 

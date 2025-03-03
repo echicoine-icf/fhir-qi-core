@@ -1,19 +1,10 @@
 <div xmlns="http://www.w3.org/1999/xhtml" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://hl7.org/fhir ../../input-cache/schemas/R5/fhir-single.xsd">
 <!--Begin Generated Intro Tag (DO NOT REMOVE)-->
-"Must Have", "QI Elements" and "primary code path" are defined in the <a href="index.html#mustsupport-flag">QI-Core Must Support section</a>.<br></br>
-
-<b>Must Have:</b>
-<ul>
-<li>telecom.system: (QI) phone | fax | email | pager | url | sms | other</li>
-<li>telecom.value: (QI) The actual contact point details</li>
-</ul>
+"Must Have", "QI Elements" and "primary code path" are defined in the <a href="index.html#mustsupport-flag">QI-Core Must Support section</a>.<br></br><br></br>
 
 <b>QI Elements:</b>
 <ul>
 <li>identifier: (QI) Business Identifiers that are specific to a role/location</li>
-<li>identifier.use: (QI) usual | official | temp | secondary | old (If known)</li>
-<li>identifier.system: (QI) The namespace for the identifier value</li>
-<li>identifier.value: (QI) The value that is unique</li>
 <li>active: (QI) Whether this practitioner role record is in active use</li>
 <li>period: (QI) The period during which the practitioner is authorized to perform in these role(s)</li>
 <li>practitioner: (QI) Practitioner that is able to provide the defined services for the organization</li>

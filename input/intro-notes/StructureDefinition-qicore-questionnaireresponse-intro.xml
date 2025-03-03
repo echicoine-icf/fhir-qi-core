@@ -1,6 +1,6 @@
 <div xmlns="http://www.w3.org/1999/xhtml" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://hl7.org/fhir ../../input-cache/schemas/R5/fhir-single.xsd">
 <!--Begin Generated Intro Tag (DO NOT REMOVE)-->
-"Must Have", "QI Elements" and "primary code path" are defined in the <a href="index.html#mustsupport-flag">QI-Core Must Support section</a>.<br></br>
+"Must Have", "QI Elements" and "primary code path" are defined in the <a href="index.html#mustsupport-flag">QI-Core Must Support section</a>.<br></br><br></br>
 
 <b>Must Have:</b>
 <ul>
@@ -8,14 +8,12 @@
 <li>status: in-progress | completed | amended | entered-in-error | stopped</li>
 <li>subject: (QI) The subject of the questions</li>
 <li>authored: Date the answers were gathered</li>
-<li>item.linkId: (QI) Pointer to specific item from Questionnaire</li>
 </ul>
 
 <b>QI Elements:</b>
 <ul>
 <li>author: (QI) Person who received and recorded the answers</li>
 <li>item: (QI) Groups and questions</li>
-<li>item.answer.value[x]: (QI) Single-valued answer to the question</li>
 </ul>
 
 <br></br>

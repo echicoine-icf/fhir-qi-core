@@ -1,6 +1,6 @@
 <div xmlns="http://www.w3.org/1999/xhtml" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://hl7.org/fhir ../../input-cache/schemas/R5/fhir-single.xsd">
 <!--Begin Generated Intro Tag (DO NOT REMOVE)-->
-"Must Have", "QI Elements" and "primary code path" are defined in the <a href="index.html#mustsupport-flag">QI-Core Must Support section</a>.<br></br>
+"Must Have", "QI Elements" and "primary code path" are defined in the <a href="index.html#mustsupport-flag">QI-Core Must Support section</a>.<br></br><br></br>
 
 <b>QI Elements:</b>
 <ul>
@@ -13,10 +13,6 @@
 <li>requestor: (QI) Party responsible for the claim</li>
 <li>request: (QI) Id of resource triggering adjudication</li>
 <li>item: (QI) Adjudication for claim line items</li>
-<li>item.adjudication: (QI) Adjudication details</li>
-<li>item.adjudication.category: (QI) This code is fixed to 'submitted' to indicate that the adjudication result is on what was submitted.</li>
-<li>item.adjudication.amount: (QI) Monetary amount</li>
-<li>item.detail.detailSequence: (QI) Claim detail instance identifier</li>
 </ul>
 
 <b>Primary code path:</b> type
